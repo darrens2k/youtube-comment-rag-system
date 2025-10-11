@@ -1,6 +1,6 @@
 # YouTube RAG Project: Comment Reply Generation with LLM
 
-This project demonstrates a **Retrieval-Augmented Generation (RAG)** pipeline for generating YouTube comment replies using a local Large Language Model (LLM). The system collects YouTube comments, cleans and embeds them in a vector database, retrieves semantically similar comments, and generates context-aware responses with an LLM.  
+This project showcases a Retrieval-Augmented Generation (RAG) workflow for generating replies to YouTube comments using a local LLM. The pipeline collects and cleans comments, stores embeddings in a vector database, retrieves the most relevant comments, and produces context-aware responses. For this project, the focus is limited to comments on Honda Civic Si videos.
 
 ---
 
