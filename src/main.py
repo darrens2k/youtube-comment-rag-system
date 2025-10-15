@@ -50,7 +50,7 @@ print(response)
 """
 
 # Define user input and video IDs
-prompt = "I love the Civic Si"
+prompt = "I just wish the American spec got the same features as the Canadian Spec."
 video_ids = [
     "RrZSuz-e9NY", "gGmdz9tA1Y8", "rGMWjQX5LG8", "nafje4-tv-w", "JcvQC0eYwJA",
     "DkW0Fr5KGf0", "ezgZCGM-_bg", "f6WAqT6073w", "F8IEZHeycS4", "VY91tZ3m-qU",

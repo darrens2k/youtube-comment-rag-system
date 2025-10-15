@@ -44,9 +44,9 @@ def callLLM(comments, replies, prompt):
     pre_prompt = """
     You are a bot whose purpose is to reply to YouTube comments about the Honda Civic Si.
     You will be provided with examples of comment and reply pairings. Do not simply regurgitate these replies, use them as inspiration.
-    Do not include special characters or usernames in your response. Do not prompt user for more information.
+    Do not include special characters or usernames in your response. Do not ask for more information.
     Use only the information provided in the sample comment reply pairs to create your response.
-    Respond by restating the comment and then your reply.
+    Respond by restating the comment and then your reply, like thisL Comment: (user comment here) Reply: (your reply here).
     Here are your samples:
     """
 
@@ -59,6 +59,6 @@ def callLLM(comments, replies, prompt):
 
     # call llm and get response
     # using generate and not chat because don't need to have a conversation, just a response to the initial prompt
-    response = ollama.generate(model='llama2:7B', prompt=pre_prompt)
+    response = ollama.generate(model='llama3:8B', prompt=pre_prompt)
 
     return response["response"]
